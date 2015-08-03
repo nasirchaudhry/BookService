@@ -18,6 +18,7 @@ namespace BookService.Models
         // Foreign Key
         public int AuthorId { get; set; }
         // Navigation property
-        public Author Author { get; set; }
+        //UNIT 3 -- Lab 04 8/3/2015
+        public virtual Author Author { get; set; }
     }
 }

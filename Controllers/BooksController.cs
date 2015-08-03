@@ -20,10 +20,18 @@ namespace BookService.Controllers
         // GET: api/Books
         public IQueryable<Book> GetBooks()
         {
-            return db.Books;
+            return db.Books
+                // new code: UNIT 3 -- Lab 04 8/3/2015
+            .Include(b => b.Author);
         }
 
         // GET: api/Books/5
+        /// <summary>
+        /// Document's for GetBook
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+
         [ResponseType(typeof(Book))]
         public async Task<IHttpActionResult> GetBook(int id)
         {

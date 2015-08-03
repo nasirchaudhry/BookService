@@ -481,10 +481,12 @@
             </summary>
             <param name="documentPath">The physical path to XML document.</param>
         </member>
-        <member name="M:BookService.Controllers.AuthorsController.Get">
+        <member name="M:BookService.Controllers.BooksController.GetBook(System.Int32)">
             <summary>
-            Gets some very important data from the server.
+            Document's for GetBook
             </summary>
+            <param name="id"></param>
+            <returns></returns>
         </member>
     </members>
 </doc>

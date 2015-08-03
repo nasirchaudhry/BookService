@@ -17,7 +17,7 @@ namespace BookService.Models
     
         public BookServiceContext() : base("name=BookServiceContext")
         {
-            // New code: UNIT 3 Lab -- 04 8/3/2015
+            // New code: UNIT 3 -- Lab 04 8/3/2015
             this.Database.Log = s => System.Diagnostics.Debug.WriteLine(s);
         }
 
