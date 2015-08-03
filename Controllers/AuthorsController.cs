@@ -115,12 +115,12 @@ namespace BookService.Controllers
         {
             return db.Authors.Count(e => e.Id == id) > 0;
         }
-        /// <summary>
-        /// Gets some very important data from the server.
-        /// </summary>
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
+        ///// <summary>
+        ///// Gets some very important data from the server.
+        ///// </summary>
+        //public IEnumerable<string> Get()
+        //{
+        //    return new string[] { "value1", "value2" };
+        //}
     }
 }
