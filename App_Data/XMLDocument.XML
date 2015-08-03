@@ -481,6 +481,31 @@
             </summary>
             <param name="documentPath">The physical path to XML document.</param>
         </member>
+        <member name="M:BookService.Controllers.AuthorsController.GetAuthors">
+            <summary>
+            Get all authors.
+            </summary>
+        </member>
+        <member name="M:BookService.Controllers.AuthorsController.GetAuthor(System.Int32)">
+            <summary>
+            Get an author by ID.
+            </summary>
+        </member>
+        <member name="M:BookService.Controllers.AuthorsController.PutAuthor(System.Int32,BookService.Models.Author)">
+            <summary>
+            Update an existing author.
+            </summary>
+        </member>
+        <member name="M:BookService.Controllers.AuthorsController.PostAuthor(BookService.Models.Author)">
+            <summary>
+            Create a new author.
+            </summary>
+        </member>
+        <member name="M:BookService.Controllers.AuthorsController.DeleteAuthor(System.Int32)">
+            <summary>
+            Delete an author.
+            </summary>
+        </member>
         <member name="M:BookService.Controllers.BooksController.GetBooks">
             <summary>
             Get all books.
